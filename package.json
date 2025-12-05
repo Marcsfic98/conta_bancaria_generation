@@ -1,0 +1,28 @@
+{
+  "name": "conta_bancaria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcsfic98/conta_bancaria_generation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Marcsfic98/conta_bancaria_generation/issues"
+  },
+  "homepage": "https://github.com/Marcsfic98/conta_bancaria_generation#readme",
+  "dependencies": {
+    "@types/node": "^24.10.1",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8"
+  }
+}
