@@ -1,6 +1,6 @@
 import { log } from "console"
 
-export class Conta {
+export abstract class Conta {
     private _numero:number
     private _agencia:number
     private _tipo:number
@@ -78,7 +78,7 @@ export class Conta {
         this._saldo = this._saldo + valor
     }
 
-    public visializar():void {
+    public visualizar():void {
         let tipo: string = ''
 
         switch (this._tipo){
